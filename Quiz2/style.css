@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.BarraPrincipal{
+    display: flex;
+}
+
+.uno { 
+    background-color: #20c997; 
+}
+
+.dos { 
+    background-color: #0d6efd;
+}
+
+.tres { 
+    background-color: #6f42c1; 
+}
+
+.cuatro { 
+    background-color: #343a40; 
+}
+
+.cinco { 
+    background-color: #ffc107; 
+}
+
+.seis { 
+    background-color: #fd7e14; 
+}
