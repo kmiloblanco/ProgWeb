@@ -1,34 +1,137 @@
-html, body{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.BarraPrincipal {
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 20px;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.Cuadro div {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
 }
 
-.BarraPrincipal{
-    display: flex;
-}
 
 .uno { 
-    background-color: #20c997; 
+    background-color: #20c997;
+    width: 100%;
+    max-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
 }
-
 .dos { 
-    background-color: #0d6efd;
+    background-color: #0d6efd; 
+    width: 100%;
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
-
 .tres { 
     background-color: #6f42c1; 
+    width: 100%;
+    max-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
-
 .cuatro { 
-    background-color: #343a40; 
-}
-
+    background-color: #343a40;
+    width: 100%;
+    max-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; }
 .cinco { 
     background-color: #ffc107; 
+    width: 100%;
+    max-width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
-
 .seis { 
     background-color: #fd7e14; 
+    width: 100%;
+    max-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.Cuadro {
+    display: grid;
+    border: 5px solid red;
+    height: 650px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grilla-uno{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grilla-dos{
+    display: flex;
+    flex-direction: column;
+}
+
+.one { 
+    background-color: #20c997;
+    width: 100%;
+    height: 100%;
+    max-height: 26%;
+}
+.two { 
+    background-color: #0d6efd;
+    width: 100%;
+    height: 100%;
+    max-height: 26%;
+}
+.three { 
+    background-color: #6f42c1;
+    width: 100%;
+    height: 100%;
+    max-height: 38%;
+}
+.four { 
+    background-color: #343a40;
+    width: 100%;
+    height: 100%;
+    max-height: 10%;
+}
+.five {
+    background-color: #ffc107;
+    width: 100%;
+    height: 100%;
+    max-height: 50%;
+}
+.six { 
+    background-color: #fd7e14;
+    width: 100%;
+    height: 100%;
+    max-height: 50%;
 }
